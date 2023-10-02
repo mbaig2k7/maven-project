@@ -1,4 +1,4 @@
 FROM tomcat:latest
 LABEL DEVOPS TEAM
-ADD ./target/ /usr/local/tomcat/webapps
+ADD ./target/server.jar /usr/local/tomcat/webapps
 EXPOSE 8080
